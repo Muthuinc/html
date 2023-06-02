@@ -10,11 +10,33 @@ body {margin:0; background-color:SeaShell;}
 .c a  { float:left; text-transform:capitalize;display:block; padding: 10px 15px; color: ivory; text-decoration:none; text-align:center; } 
 .c a:hover { background-color:SeaShell; color:LightSlateGrey;}
 
-.d { display:non; position:absolute; display:block; background-color:  SlateGray   ; box-shadow: 2px 5px 20px 3px LightYellow;}
+.d { display:none; position:absolute; display:block; background-color:  SlateGray   ; box-shadow: 2px 5px 20px 3px LightYellow;}
 .d a { color:Snow; display:block; text-decoration:none; text-align:center; padding: 3px 3px;}
 .e { padding:2px; color:red;}
- 
-  
+
+/* another menu starts here */
+ul { list-style-type:none; margin:0; padding:0; overflow:hidden; background-color: DarkSlateGrey}
+
+li {float:left;}
+
+li a { display:inline-block; color: FloralWhite; text-align:center; text-transform:capitalize; text-decoration:none; padding:10px 15px}
+
+li a:hover, .f:hover { background-color:SaddleBrown;}
+
+li .f {display:inline-block}
+
+.g {display:none; position:absolute; box-shadow: 2px 8px 14px 2px gainsboro; background-color:Tan; width:88px; z-index:1;}
+
+.g a{display:block; text-align:left;}
+
+.g a:hover { background-color:SeaShell; color:LightSlateGrey;}
+
+.f:hover .g { display:block}
+
+
+
+
+
 
 </style>
 </head>
@@ -26,7 +48,6 @@ body {margin:0; background-color:SeaShell;}
 <div class="c">
 <a href="g.com" > Home </a>  
 <a  href="g.com" > Images </a>
-<a href="g.com" > test </a> 
 <a href="g.com" > pictures </a>
 <a href="g.com" > videos </a>
 <a href="g.com" > contact us </a>
@@ -34,8 +55,41 @@ body {margin:0; background-color:SeaShell;}
 <!-- paragraph starts here -->
 
 <div>
-	<h4 class="e"> The above is the normal menu button we can use </h4>
-	<h4 class="e"> let's try the dropdown menu </h4>
+	<h4 class="e"> The above is the normal menu button we can use. 
+	  let's try the dropdown menu </h4>
+</div>
+<!-- navigation menu -->
+<div>
+
+<ul class="h">
+<li> <a href="g.com" > Home </a> </li>
+<li class="f"> <a href="g.com" > images </a>
+<div class="g"> <a href="g.com" > test1 </a>
+<a href="g.com" > test2 </a>
+<a href="g.com" > test3 </a> </div>
+</li>
+<li> <a href="g.com"> pictures </a>
+
+
+
+<li class="f">  <a href="g.com"> videos </a> 
+
+<div class="g"> <a href="g.com" > test1 </a>
+<a href="g.com" > test2 </a>
+<a href="g.com" > test3 </a> </div> </li>
+
+
+<li> <a href="g.com" > contact us </a> </li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
 </div>
 	
 
