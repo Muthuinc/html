@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> trying the web layout </title>
+<style>
+
+
+
+body { margin:0; }
+#a { width; background-color:gold; text-align:center;; margin:;padding:1px;text-transform:Uppercase;} 
+.a { color:blue; padding:}
+.b {
+  display: flex;}
+#b { width:10%; margin:0; padding:0; background-color:dodgerblue;}
+#b a { float:; text-decoration:none; padding:10px 5px; display:block; color:silver;} 
+#b a:hover { background-color:white; color:black; box-shadow: 0px 1px 5px 5px orange}
+.c { width:30%; margin-left:;; background-color:grey; padding:1px 5px;}
+.d { width:60%; background-color:green; padding:2px 10px}
+#c { display:flex}
+#d {width:20%; background-color:turquoise; padding:10px 5px;}
+#e {  font-size:15px; color:tomato;}
+#fn , #ln { padding:2px 5px; border:2px solid gray; border-radius:8px; margin-left:15px;width:100px;}
+#f { width:20%; background-color:coral; padding:10px;}
+#f label { color:black; text-transform-capitalize; padding: px x; margin-left:px }
+#fm { padding:10px 30px ; margin-left:20px}
+#g { padding: 5px 5px; background-color:crimson;  }
+#g label{ color: cornsilk; padding: 2px 2px; display:block;}
+#g select { width:70px; background-color:linen; color:magenta;padding: 2px 5px;}
+.z  { display: flex; flex-direction:column;}
+.y {width:20%; background-color:turquoise; width:100%;padding:10px 5px; flex: 1 0  50%;}
+.y textarea{ resize:none; width:100px; height:100px; box-sizing: padding:5px;display:block} 
+#z{ width:20%; background-color:coral; padding:10px;}
+</style>
+</head>
+
+
+<body>
+
+<div id="a">
+<h2 class="a"> title </h2>
+</div>
+<!-- header ends here -->
+<div class="b">
+<div id="b">
+<a href="g.com" > Home </a>
+<a href="g.com" > Images </a>
+<a href="g.com" > Pictures </a>
+<a href="g.com" > Videos </a>
+<a href="g.com" > Contact us </a>
+</div>
+
+<div class="c">
+<h3> Para:1 </h3>
+<p> The structure of a layout should follow a visual hierarchy. What are the important ideas you want people to see and in what order? Visual hierarchy needs to adhere to the common patterns people use when reading. There are two paths people’s eyes generally follow on the web: the F-pattern and the Z-pattern.</p> <p> Being familiar with how these patterns work will help you organize your own content Most people will read through something like a blog post in this F-pattern. With left-aligned text and bulleted sentences, Nelson Abalos takes advantage of this design technique, making his posts easy to navigate and follow </p>
+</div>
+
+<div class="d">
+<h3> Para:2 </h3>
+<p>The F-pattern is more common for designs with dense blocks of content. People’s eyes will scan down the left side of a layout until things catch their attention and then read from left to right. Imagine looking through the menu at a restaurant — you may skip over the bold names of dishes aligned on the left until you come to something that grabs you, which will prompt you to read the supporting details explaining that specific dish. </p>
+</div>
+</div>
+
+<div id="c">
+<div id="d">
+<form id="e">
+<label for="fn" > First Name: </label>
+<input type="text" id="fn" name="fn" >
+<br> <br>
+<label for="ln" > Last Name: </label>
+<input type="text" id="ln" name="ln" ><br><br>
+<input type="submit" value="submit">
+</form>
+</div>
+<div   id="f"    >
+<h4> select any one radio </h4>
+<input type="radio" id="fm" name="fm" >
+<label for="fm" > Bigfm </label>
+<br><br>
+<input type="radio" id="fm" name="fm" >
+<label for="fm" >suryanfm </label>
+<br><br>
+<input type="radio" id="fm" name="fm" >
+<label for="fm" > radio one </label>
+</div>
+<div class="z">
+<div id="g"> 
+<label for:"value"> select any one: </label>
+<select> 
+<option value="one" > One </option>
+<option value="one" > Two </option>
+<option value="one" > Three </option>
+<option value="one" > Four </option>
+</select>
+</div>
+<div>
+<form class="y">
+<p> text-area </p>
+<textarea name="m" rows="5" cols "20" > start here... </textarea>
+</form>
+</div>
+</div>
+
+
+<div id="z">
+<p >select:</p>
+<form>
+
+<input list="n" >
+<datalist id="n">
+<option value="m">
+<option value="n">
+<option value="o">
+<option value="p">
+</datalist>
+</form>
+
+</div>
+
+
+
+
+
+
+
